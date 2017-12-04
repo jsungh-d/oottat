@@ -1,0 +1,372 @@
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 992px) {
+
+}
+
+@media screen and  (max-width: 768px) {
+
+}
+
+
+@media screen and (max-width: 650px) {
+
+}
+
+
+
+
+
+@media screen and (max-width: 576px) {
+    .list_top_div_img {
+        margin-bottom:15px;
+        height: 200px;
+    }
+    .list_top_div_text .detail {
+        margin-bottom: 15px;
+    }
+    .list_top_div_btn button {
+        font-size:13px;
+    }
+    .list_top_div_btn .gray_btn {
+        padding: 3px 15px;
+    }
+    .list_top_div_btn .bnw_btn {
+        padding: 3px 15px;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .client_center_info {
+        display: block;
+        margin-top: 15px;
+        margin-left: 0;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .client_center_div {
+        padding: 30px 0;
+    }
+    .client_center_div img {
+        max-width: 100px;
+    }
+    .choose_text {
+        padding: 7px 0;
+        font-size: 16px;
+    }
+    .triangle_up {
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        width: 0;
+        height: 0;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #1082fc;
+        border-left: 6px solid transparent;
+    }
+    .triangle_down {
+        position: absolute;
+        right: 20px;
+        top: 17px;
+        width: 0;
+        height: 0;
+        border-right: 6px solid transparent;
+        border-bottom: 6px solid #1082fc;
+        border-left: 6px solid transparent;
+    }
+    .qna_list_title {
+        padding: 15px;
+        margin: 0;
+        cursor: pointer;
+    }
+    .qna_list_wrapper {
+        margin-top: 15px;
+        text-align: left;
+    }
+
+    .info_ipt_area .ipt:first-child {
+        width: 90%;
+    }
+    .info_ipt_area .ipt:last-child {
+        width: 90%;
+    }
+
+    /* 데이트피커 */
+    .datepicker_area .datepicker {
+        position: relative;
+        width: 90%;
+        margin: 0 auto;
+        padding: 0;
+        padding-bottom: 10px;
+        background: none;
+        border-radius: 0;
+        z-index: 1000;
+    }
+    .datepicker table tr td, .datepicker table tr th {
+        padding: 7px 4px;
+        font-size: 15px;
+    }
+    .datepicker_area .datepicker .dow {
+        opacity: 0.5 !important;
+        font-size: 14px;
+    }
+    .datepicker table tr td.today:after {
+        width: 30px;
+        height: 30px;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+
+    .datepicker table tr td.active:after {
+        width: 30px;
+        height: 30px;
+        margin-left: -15px;
+        margin-top: -15px;
+    }
+
+    .cust_file_div_wrapper textarea {
+        width:90%;
+        font-size:12px;
+    }
+    .img_box_bg_div {
+        height:100px;
+    }
+    .img_box_bg_img {
+        width:100%;
+        height:180px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size:cover;
+    }
+    .view_box_bg_img {
+        height:120px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 { font-size: 36px; font-weight:200; line-height: 1.3;}
+    h2 { font-size: 26px;  font-weight:200; line-height: 1.3;}
+    h3 {font-size: 17px; font-weight:200; line-height: 1.3;}
+    h4 {font-size: 17px; font-weight:200; line-height: 1.3;}
+    h5 {font-size: 14px; font-weight:200; line-height: 1.3;}
+    h6 {font-size: 11px; font-weight:200; line-height: 1.3;}
+    p {
+        font-size: 11px;
+        line-height: 1.5;
+    }
+    header {
+        display: none;
+    }
+    .mobile_header {
+        display: block;
+    }
+    section {
+        padding: 50px 0;
+    }
+    .section_md {
+        padding: 30px 0;
+    }
+    .top_heading_text {
+        padding-bottom: 20px;
+    }
+
+    .heading_text {
+        padding: 20px 0 10px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .index_top_area {
+        height: 300px;
+    }
+
+    .top_area_contents h4 {
+        margin-top: 15px;
+    }
+
+    .bnw_btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .wnb_btn {
+        font-size: 12px;
+        padding: 12px 35px;
+    }
+    .wnn_btn {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
+    .w_btn {
+        font-size: 12px;
+        padding: 12px 35px;
+    }
+
+
+    .service_img {
+        display: inline-block;
+        vertical-align: middle;
+        width: 35%;
+    }
+    .service_list {
+        display: inline-block;
+        width: 60%;
+        vertical-align: middle;
+        text-align: left;
+    }
+    .support_div {
+        text-align: left;
+        padding: 5px;
+    }
+    .support_img {
+        max-width: 40px;	
+    }
+    .support_section span {
+        margin-left: 20px;
+        font-size: 20px;
+        font-weight: 100;
+        vertical-align: middle;
+    }
+
+    .ipt_div_wrapper {
+        margin-top: 35px;
+    }
+    .ipt_area input {
+        margin-bottom: 10px;
+        height: 35px;
+        font-size: 14px;
+        padding: 7px 12px;
+    }
+    .blue_checkdiv h5 {
+        padding: 12px 0;
+    }
+    .green_checkdiv h5 {
+        padding: 12px 0;
+    }
+    .purple_checkdiv h5 {
+        padding: 12px 0;
+    }
+
+    .btn_area {
+        margin-top: 30px;
+    }
+
+    .checkdiv h5 {
+        font-size: 12px;
+    }
+
+    img.insurance_img {
+        width: 90%;
+    }
+    .app_image {
+        width: 90%;
+    }
+
+    .index-top_area_clip {
+        height: 300px;
+    }
+
+
+
+    /* 의뢰 페이지 */
+    .cust_file_div_wrapper textarea {
+        max-width: 330px;
+        font-size:13px;
+    }
+    .btn_width_fix .btn {
+        display: block;
+        margin: 5px auto;
+        padding: 12px 0px;
+        width: 150px;
+    }
+    .btn_width_fix .bg_checkdiv {
+        display: block;
+        margin: 8px auto;
+        width: 150px;	
+    }
+    .btn_width_fix .bg_checkdiv h5 {
+        padding: 12px 0px;
+    }
+    .cust_file_div_wrapper {
+        margin-top: 15px;
+    }
+    .cust_file_div {
+        margin: 0px 5px;
+        margin-bottom: 10px;
+        width: 100px;
+        height: 100px;
+    }
+    .width_ipt {
+        width: 70px;
+        font-size: 24px;
+    }
+    .size_ipt_div button {
+        margin-left: 15px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        border: 1px solid #d8034a;
+        color: #d8034a;
+        background: none;
+        text-align: center;
+        font-size: 20px;
+        vertical-align: middle;
+    }
+    .info_ipt_area .ipt:first-child {
+        padding: 5px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+        /* width: 90%; */
+        font-size: 20px;
+    }
+    .info_ipt_area .ipt:last-child {
+        padding: 5px;
+        /* width: 90%; */
+        font-size: 20px;
+    }
+
+    .ask_modal .btn_width_fix .bg_checkdiv {
+        display: inline-block;
+        margin: 0px 3px;
+        width: auto;
+    }
+    .ask_modal .btn_width_fix .bg_checkdiv h5 {
+        padding: 7px 15px;
+    }
+    .ask_modal .btn_width_fix .btn {
+        display: block;
+        margin: 5px auto;
+        padding: 9px 0px;
+        width: 110px;
+    }
+    .ask_modal .info_ipt_area .ipt {
+        font-size: 15px !important;
+    }
+    .ask_modal .bg_checkdiv h5 {
+        padding: 5px 7px;
+        font-size: 14px;
+    }
+    .ask_modal .size_ipt_div h2 {
+        font-size: 15px;
+    }
+}
+
+
+
+/*태블릿*/
+@media screen and  (min-width: 768px) {
+
+}
+
+/*노트북*/
+@media screen and (min-width: 992px) {
+
+}
+
+
+/*웹*/
+@media screen and (min-width: 1200px) {
+
+}
